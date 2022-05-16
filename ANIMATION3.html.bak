@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Animation 3
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:150px;
+                width:150px;
+                transition:5s;
+                font-size:17px;
+                font-weight:bold;
+                color:#bcb5ff;
+                background-color:rgb(112, 220, 247);
+            }
+
+			#TranslateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:rgb(198, 255, 250);
+                      color:rgb(0, 255, 21); 
+            }
+
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(9, 9, 237);
+                      color:rgb(0, 255, 145); 
+
+            }
+			#RotateDiv3D:hover{
+				-webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(68, 68, 243);
+                      color:rgb(200, 14, 166); 
+
+			}
+            #SkewDiv:hover
+            {
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:rgb(226, 36, 160);
+                      color:rgb(191, 191, 63); 
+            }
+            #ScaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:rgb(224, 24, 151);
+                      color:rgb(193, 193, 26); 
+            }
+            #OpacityDiv:hover
+            {
+                opacity:1;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(128,128,0,0.5);
+            }
+            #BoxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px rgb(33, 33, 67);
+            }
+            #TextShadowDiv:hover
+            {
+                text-shadow:3px 3px 3px rgb(149, 149, 19);
+            }
+			#BorderRadiusDiv:hover
+			{
+				border-radius:50%;
+			}
+			#OverFlowDiv{overflow:auto;}
+        </style>
+	</head>
+    <body>
+        <b>Translate:-</b>
+        <div id="TranslateDiv">Computer Science </div><hr />
+        <b>Rotate:-</b>
+        <div id="RotateDiv">Computer Application </div><hr />
+        <b>Rotate 3d:-</b>
+		<div id="RotateDiv3D">Data Science </div><hr />
+        <b>Skew:-</b>
+        <div id="SkewDiv">Social Science</div><hr />
+        <b>Scale :-</b>
+        <div id="ScaleDiv">Scientist</div><hr />
+        <b>Opacity:-</b>
+        <div id="OpacityDiv">Social media</div><hr />
+        <b>RGBA:-</b>
+        <div id="RGBADiv">Media Animation </div><hr />
+        <b>Box-Shad:-</b>
+        <div id="BoxShadowDiv">Science through talk</div><hr />
+        <b>Text-Shadow:-</b>
+        <div id="TextShadowDiv">English through walk</div><hr />
+        <b>Border Radius:-</b>
+		<div id="BorderRadiusDiv">Rockers with science</div><hr />
+        <b>Overflow :-</b>
+		<div id="OverFlowDiv">Media Animation Media Animation Media Animation Media Animation Media Animation Media Animation Media Animation Media Animation Media Animation </div><hr />
+    </body>
+</html>

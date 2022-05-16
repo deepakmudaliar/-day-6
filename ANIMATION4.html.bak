@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            ANIMATION 2
+        </title>
+        <style type="text/css">
+            div
+            {
+                height:110px;
+                width: 110px;
+                transition:5s;
+                font-size:20px;
+                font-weight:bold;
+                color:#5cebf0;
+                background-color:rgb(114, 230, 220);
+            }
+            #RotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(19, 19, 102);
+                      color:rgb(142, 142, 16); 
+
+            }
+        </style>
+	</head>
+    <body>
+
+        <b>Rotate</b>
+        <div id="RotateDiv">B</div><hr />
+    </body>
+    </html>
